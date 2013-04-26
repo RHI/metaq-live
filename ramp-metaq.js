@@ -41,8 +41,8 @@
 			var req = new XMLHttpRequest(),
 				self = this;
 
-			req.onload = function() {
-				self.processMatches();
+			req.onload = function( ) {
+				self.processMatches( req.response );
 
 				if ( self.options.fetchInterval ) {
 					setTimeout(function() {
