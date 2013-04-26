@@ -30,7 +30,7 @@ var metaq = new MetaQ({
 
 ###Data
 
-The sequence of events is.
+The sequence of events:
 
 1. MetaQ API has a list of significant terms of interest
 2. A Live Transcript is run against MetaQ to notify that a term of interest has been mentioned
