@@ -39,7 +39,7 @@ var metaq = new MetaQ({
 
 ###Data
 
-The sequence of events is.
+The sequence of events:
 
 1. MetaQ API has a list of significant terms of interest
 2. A Live Transcript is run against MetaQ to notify that a term of interest has been mentioned
@@ -50,7 +50,8 @@ The sequence of events is.
 This is an example of the JSON response you could receive.
 
 You can see here that the Action is designed to retrieve season standings for a particular team.  The mentioned team
-in this case was the *St. Lous Rams.  An API url is delivered to retrieve the standings.
+in this case was the *St. Lous Rams*.  An API url is provided to retrieve the standings.  All this information is available
+as part of the Action's Attributes.
 
 ````JSON
 {
