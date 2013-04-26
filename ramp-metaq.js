@@ -42,7 +42,7 @@
 				self = this;
 
 			req.onload = function() {
-				this.processMatches();
+				self.processMatches();
 
 				if ( self.options.fetchInterval ) {
 					setTimeout(function() {
