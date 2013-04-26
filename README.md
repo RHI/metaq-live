@@ -41,7 +41,7 @@ The sequence of events:
 This is an example of the JSON response you could receive.
 
 You can see here that the Action is designed to retrieve season standings for a particular team.  The mentioned team
-in this case was the *St. Lous Rams.  An API url is delivered to retrieve the standings.
+in this case was the *St. Lous Rams*.  An API url is delivered to retrieve the standings.
 
 ````JSON
 {
