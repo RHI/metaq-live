@@ -28,9 +28,20 @@ var metaq = new MetaQ({
 | fetchInterval | The interval at which the Live Feed is polled |
 | handler | Callback function that takes the Matches response in JSON format as a parameter |
 
-###JSON Response Format
+###Data
+
+The sequence of events is.
+
+1. MetaQ API has a list of significant terms of interest
+2. A Live Transcript is run against MetaQ to notify that a term of interest has been mentioned
+3. A response, with a relevant Action is delivered to to perform an abitrary task.
+
+####JSON Response
 
 This is an example of the JSON response you could receive.
+
+You can see here that the Action is designed to retrieve season standings for a particular team.  The mentioned team
+in this case was the *St. Lous Rams.  An API url is delivered to retrieve the standings.
 
 ````JSON
 {
