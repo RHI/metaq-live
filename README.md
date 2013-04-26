@@ -28,6 +28,15 @@ var metaq = new MetaQ({
 | fetchInterval | The interval at which the Live Feed is polled |
 | handler | Callback function that takes the Matches response in JSON format as a parameter |
 
+###Functions
+
+| Name | use |
+| -----| ----|
+| start( interval ) | Starts polling the MetaQ Live Feed.  Parameter is fetch interval in miliseconds.  If no interval is passed, 3000 is used.
+| stop() | Stops polling |
+| setDuration( duration ) | Change the duration ( how far back to check ) - in seconds. |
+| setFetchInterval( interval ) | Change the interval at which the Live Feed is polled.  If nothing is passed, the polling stops |
+
 ###Data
 
 The sequence of events is.
